@@ -5,7 +5,9 @@ int add(int a, int b) {
 }
 
 int main() {
-    int result = add(3, 4);
-    printf("Result: %d\n", result);
+    int x, y;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &x, &y);
+    printf("Result: %d\n", add(x, y));
     return 0;
 }
